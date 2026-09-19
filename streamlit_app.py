@@ -208,7 +208,10 @@ def main():
         lang = LANGUAGES[st.selectbox("Language", list(LANGUAGES))]
         region = st.selectbox("거주 지역", ["광역", "중구", "동구", "서구", "남구", "북구", "수성구", "달서구", "달성군", "군위군"])
         st.caption(UI[lang]["tag"])
-        st.success("AI 분석 연결됨") if secret("GEMINI_API_KEY") else st.warning("샘플 모드 · Gemini 키 미설정")
+        if secret("GEMINI_API_KEY"):
+            st.success("AI 분석 연결됨")
+        else:
+            st.warning("샘플 모드 · Gemini 키 미설정")
     tabs = st.tabs(["문서 도우미", UI[lang]["calendar"], UI[lang]["phishing"], UI[lang]["consult"], UI[lang]["ask"]])
     with tabs[0]:
         document_tab(lang, region, docs, multi, centers)
@@ -225,7 +228,12 @@ def main():
         text = st.text_area("문자 내용", "[긴급] 미납 요금이 있습니다. 오늘 안에 아래 계좌로 680,000원을 송금하세요. 문의를 위해 앱을 설치하세요.", height=150)
         if st.button("위험 신호 확인", type="primary"):
             score, flags = phishing_check(text)
-            (st.error if score >= 70 else st.warning if score >= 40 else st.success)(f"위험도 {score}")
+            if score >= 70:
+                st.error(f"위험도 {score}")
+            elif score >= 40:
+                st.warning(f"위험도 {score}")
+            else:
+                st.success(f"위험도 {score}")
             for flag in flags or ["뚜렷한 위험 문구를 찾지 못했지만 발신처를 별도로 확인하세요."]:
                 st.markdown(f"- {flag}")
             st.caption("현재 화면은 설명 가능한 규칙 기반 점검이며 학습 모델은 사전 실험 단계입니다.")
