@@ -1,0 +1,12 @@
+[
+  {"name":"대구광역시가족센터","region":"광역","field":"다문화가족·외국인 생활정보","map_query":"대구광역시가족센터","source":"https://www.liveinkorea.kr/web/index.do"},
+  {"name":"대구동구가족센터","region":"동구","field":"가족상담·한국생활·교육","map_query":"대구동구가족센터","source":"https://www.liveinkorea.kr/web/index.do"},
+  {"name":"대구서구가족센터","region":"서구","field":"가족상담·한국생활·교육","map_query":"대구서구가족센터","source":"https://www.liveinkorea.kr/web/index.do"},
+  {"name":"대구남구가족센터","region":"남구","field":"가족상담·한국생활·교육","map_query":"대구남구가족센터","source":"https://www.liveinkorea.kr/web/index.do"},
+  {"name":"대구북구가족센터","region":"북구","field":"가족상담·한국생활·교육","map_query":"대구북구가족센터","source":"https://www.liveinkorea.kr/web/index.do"},
+  {"name":"대구수성구가족센터","region":"수성구","field":"가족상담·한국생활·교육","map_query":"대구수성구가족센터","source":"https://www.liveinkorea.kr/web/index.do"},
+  {"name":"대구달서구가족센터","region":"달서구","field":"가족상담·한국생활·교육","map_query":"대구달서구가족센터","source":"https://www.liveinkorea.kr/web/index.do"},
+  {"name":"대구달성군가족센터","region":"달성군","field":"가족상담·한국생활·교육","map_query":"대구달성군가족센터","source":"https://www.liveinkorea.kr/web/index.do"},
+  {"name":"대구출입국·외국인사무소","region":"광역","field":"체류·비자·외국인등록","phone":"1345","map_query":"대구출입국외국인사무소","source":"https://www.immigration.go.kr/"},
+  {"name":"대한법률구조공단 대구지부","region":"광역","field":"임대차·임금·법률상담","phone":"132","map_query":"대한법률구조공단 대구지부","source":"https://www.klac.or.kr/"}
+]
