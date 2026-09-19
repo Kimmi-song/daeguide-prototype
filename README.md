@@ -99,4 +99,6 @@ notebooks/
 
 ## 배포
 
+[DAEGU:IDE 공개 데모 실행하기](https://daeguide-prototype.streamlit.app/)
+
 공개 데모는 Streamlit Community Cloud에서 이 저장소의 `streamlit_app.py`를 실행하도록 배포합니다. 배포 환경의 Secrets에는 `GEMINI_API_KEY`와 `GEMINI_MODEL`을 등록하며, 실제 키는 저장소에 공개하지 않습니다.
