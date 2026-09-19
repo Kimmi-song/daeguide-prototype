@@ -1,0 +1,310 @@
+{
+  "bill_A_page_1_camera.png": {
+    "original_analysis": {
+      "document_type": "임대차계약서",
+      "summary": "임대인 김대구와 임차인 NGUYEN MINH 간의 가상 주택 임대차계약서 샘플입니다. 대구 달서구 소재 주택에 대해 보증금 1,000만 원, 월세 55만 원, 관리비 8만 원 조건으로 약 1년간 임대차 계약을 체결하는 내용입니다. 보증금 반환 시점과 퇴거 통보 기한에 대한 특약이 포함되어 있습니다.",
+      "money_items": [
+        {
+          "name": "보증금",
+          "amount": "10,000,000 원",
+          "evidence": "보종금 10,000,000 원"
+        },
+        {
+          "name": "월 차임 (월세)",
+          "amount": "550,000 원",
+          "evidence": "월 차임 550,000 원"
+        },
+        {
+          "name": "관리비",
+          "amount": "80,000 원",
+          "evidence": "관리비 80,000 원"
+        }
+      ],
+      "date_items": [
+        {
+          "name": "계약 시작일",
+          "date": "2026.03.07",
+          "evidence": "계약기간 2026.03.07"
+        },
+        {
+          "name": "계약 종료일",
+          "date": "2027.02.28",
+          "evidence": "2027.02.28"
+        }
+      ],
+      "risks": [
+        {
+          "level": "주의",
+          "title": "보증금 반환 지연 가능성 (불리한 특약)",
+          "explanation": "특약 사항에 '보증금은 새로운 임차인의 입주가 완료된 후 반환한다'고 기재되어 있습니다. 이 조항대로라면 계약이 끝나도 다음 세입자가 들어올 때까지 보증금을 돌려받지 못할 위험이 크므로, 임차인에게 매우 불리합니다.",
+          "evidence": "임대차 종료 시 보종금은 새로운 임차인의 입주가 완료된 후 반환한다"
+        },
+        {
+          "level": "확인 필요",
+          "title": "퇴거 통보 기한 의무 준수",
+          "explanation": "계약 종료 최소 1개월 전에는 집을 비우겠다는 의사를 집주인에게 알려야 합니다. 이 기한을 놓치면 계약이 자동으로 연장되는 등 난처한 상황이 생길 수 있습니다.",
+          "evidence": "임차인은 계약 종료 1개월 전까지 퇴거 의사틀 알려야 한다"
+        }
+      ],
+      "next_actions": [
+        "보증금 반환 조건을 '계약 종료일에 즉시 반환한다'로 수정해 줄 것을 임대인에게 강력히 요청하세요.",
+        "이사 계획이 있다면 계약 종료일(2027년 2월 28일)로부터 최소 1개월 전인 2027년 1월 28일 이전까지 퇴거 의사를 임대인에게 서면(문자, 내용증명 등)으로 전달하세요.",
+        "이 문서는 시연용 가상 샘플이므로, 실제 계약을 진행할 때는 공인중개사를 통해 정식 표준임대차계약서로 작성하시길 권장합니다."
+      ],
+      "missing_or_unclear": [
+        "OCR 오타 의심 단어가 존재합니다: '보종금'(보증금의 오타), '의사틀'(의사를의 오타), '셈플로/셈풀'(샘플의 오타).",
+        "매달 월세를 지급해야 하는 특정 '지급일(예: 매월 5일 등)' 정보가 계약서에서 확인되지 않습니다.",
+        "문서 전체가 생략되거나 잘려 있어, 계약서의 나머지 일반 조항 및 임대인/임차인의 서명 날인 여부를 확인할 수 없습니다."
+      ]
+    },
+    "translations": {
+      "en": {
+        "language": "English",
+        "summary": "This is a sample of a virtual housing rental agreement (lease) between the landlord (owner) Kim Dae-gu and the tenant (renter) NGUYEN MINH. It outlines a lease for a house located in Dalseo-gu, Daegu, for approximately 1 year, under the conditions of a deposit (guarantee money) of 1,000만 원, monthly rent of 55만 원, and an administrative fee of 8만 원. It includes special agreements (extra conditions) regarding the timing of the deposit return and the notice period for moving out.",
+        "risks": [
+          "Potential delay in the return of the deposit (unfavorable special agreement): The special agreement states that 'the deposit is returned after a new tenant completes their move-in.' Under this clause, there is a risk that you may not receive your deposit back even after the contract ends until a new tenant is found. This could be highly unfavorable to the tenant, so confirmation is required.",
+          "Requirement to comply with the move-out notice deadline: You must notify the landlord of your intention to move out at least 1 month before the contract ends. If this deadline is missed, there is a risk that the contract could be automatically renewed, which may lead to difficult situations and needs to be carefully checked."
+        ],
+        "next_actions": [
+          "Strongly request the landlord (owner) to modify the deposit (guarantee money) return condition to 'to be returned immediately on the contract end date.'",
+          "If you have plans to move, deliver your intention to move out to the landlord in writing (such as a text message or certified mail) prior to 2027년 1월 28일, which is at least 1 month before the contract end date of 2027년 2월 28일.",
+          "As this document is a virtual sample for demonstration, it is recommended to draft an official standard rental agreement through a licensed real estate professional when proceeding with an actual contract."
+        ]
+      },
+      "zh": {
+        "language": "Simplified Chinese",
+        "summary": "这是房东（出租人）金大邱与租客（承租人）NGUYEN MINH 之间签署的虚拟房屋租赁合同样本。主要内容为针对位于大邱达西区的房屋，以保证金（租房押金）1,000만 원、月租金 55만 원、管理费 8만 원 为条件，签署为期约 1 年的租赁合同。合同中包含了关于退还保证金的时间以及搬离（退租）通知期限的特别约定（特约条款）。",
+        "risks": [
+          "可能存在保证金（租房押金）延迟退还的风险（不利的特别约定）：特约条款中写明“租约结束时，保证金将在新租客完成入住后退还”。如果按照该条款执行，即使合同到期，也有可能在下一位租客入住前无法拿回押金，这可能会对租客非常不利，建议对此条款进行确认。",
+          "关于退租通知期限的合规确认：合同规定必须在合同结束至少 1 个月前向房东表达搬离意愿。如果错过这一期限，有可能面临合同自动续期等不便情况，需要注意确认。"
+        ],
+        "next_actions": [
+          "建议强烈要求房东将保证金退还条件修改为“在合同结束日（到期日）立即退还”。",
+          "如有搬家计划，请在合同结束日（2027년 2월 28일）前至少 1 个月，即 2027년 1월 28일 之前，通过书面形式（如短信、内容证明等）向房东告知退租意愿。",
+          "由于本文件仅为演示用的虚拟样本，建议在进行实际签约时，通过持证房产中介（公认中介士）撰写正式的标准房屋租赁合同。"
+        ]
+      },
+      "vi": {
+        "language": "Vietnamese",
+        "summary": "Đây là mẫu hợp đồng thuê nhà giả định giữa chủ nhà (người cho thuê) Kim Dae-gu và người thuê nhà NGUYEN MINH. Nội dung hợp đồng là thuê một căn nhà tại Dalseo-gu, Daegu trong thời hạn khoảng 1 năm với các điều kiện bao gồm: tiền đặt cọc (khoản tiền bảo đảm) là 1,000만 원, tiền thuê nhà hàng tháng là 55만 원, và phí quản lý là 8만 원. Hợp đồng có chứa các thỏa thuận đặc biệt (điều khoản riêng) về thời điểm hoàn trả tiền đặt cọc và thời hạn thông báo chuyển đi.",
+        "risks": [
+          "Có khả năng bị chậm hoàn trả tiền đặt cọc (Điều khoản đặc biệt bất lợi): Trong thỏa thuận đặc biệt có ghi 'tiền đặt cọc sẽ được hoàn trả sau khi người thuê mới hoàn tất việc dọn vào'. Nếu theo điều khoản này, có nguy cơ là ngay cả khi hợp đồng kết thúc, người thuê có thể không nhận lại được tiền đặt cọc cho đến khi có người thuê mới dọn vào. Đây là điều khoản rất bất lợi cho người thuê nhà và cần được xác nhận lại.",
+          "Cần kiểm tra việc tuân thủ nghĩa vụ thời hạn thông báo chuyển đi: Người thuê nhà cần phải thông báo cho chủ nhà về ý định chuyển đi ít nhất 1 tháng trước khi hợp đồng kết thúc. Nếu bỏ lỡ thời hạn này, có khả năng sẽ gặp phải những tình huống khó khăn như hợp đồng tự động gia hạn. Cần xác nhận kỹ để tránh rủi ro."
+        ],
+        "next_actions": [
+          "Hãy yêu cầu mạnh mẽ chủ nhà sửa đổi điều kiện hoàn trả tiền đặt cọc thành 'hoàn trả ngay lập tức vào ngày kết thúc hợp đồng'.",
+          "Nếu có kế hoạch chuyển đi, hãy gửi thông báo bằng văn bản (tin nhắn, thư bảo đảm/chứng thư nội dung, v.v.) về ý định chuyển đi cho chủ nhà trước ngày 2027년 1월 28일, tức là ít nhất 1 tháng trước ngày kết thúc hợp đồng (2027년 2월 28일).",
+          "Vì tài liệu này là mẫu giả định dùng để minh họa, chúng tôi khuyên bạn nên lập hợp đồng thuê nhà mẫu chuẩn chính thức thông qua công ty môi giới bất động sản được cấp phép khi tiến hành giao dịch thực tế."
+        ]
+      }
+    }
+  },
+  "lease_A_page_1_camera.png": {
+    "original_analysis": {
+      "document_type": "공과금고지서",
+      "summary": "2026년 9월분 생활 공과금(전기, 도시가스, 수도 요금) 고지서로, 총 납부금액은 68,400원이며 납부기한은 2026년 9월 25일까지입니다.",
+      "money_items": [
+        {
+          "name": "전기요금",
+          "amount": "31,200 원",
+          "evidence": "31,200 원\n전기요금"
+        },
+        {
+          "name": "도시가스요금",
+          "amount": "24,800 원",
+          "evidence": "24,800 원\n도시가스"
+        },
+        {
+          "name": "수도요금",
+          "amount": "12,400 원",
+          "evidence": "12,400 원\n수도요금"
+        },
+        {
+          "name": "총 납부금액",
+          "amount": "68,400 원",
+          "evidence": "68,400 원\n총 남부금액"
+        }
+      ],
+      "date_items": [
+        {
+          "name": "납부기한",
+          "date": "2026.09.25",
+          "evidence": "2026.09.25\n남부기한"
+        }
+      ],
+      "risks": [
+        {
+          "level": "주의",
+          "title": "기한 경과 시 연체료 발생",
+          "explanation": "약속된 납부기한(2026년 9월 25일)을 넘겨서 돈을 내면 원래 금액보다 더 많은 돈(연체료)을 내야 할 수 있습니다.",
+          "evidence": "남부기한 경과 시 연체료가 발생할 수 있습니다:"
+        }
+      ],
+      "next_actions": [
+        "2026년 9월 25일까지 총 금액 68,400원을 가상은행 계좌(000-0000-0000)로 이체하여 납부하세요.",
+        "연체료가 추가로 붙지 않도록 반드시 납부 기한을 지켜주세요."
+      ],
+      "missing_or_unclear": [
+        "문서 전체에 '납부'가 '남부'로 잘못 표기되어 있습니다 (예: 남부자, 남부기한, 남부상태, 남부계좌, 총 남부금액).",
+        "납부 상태의 '미답'은 아직 돈을 내지 않았다는 뜻인 '미납'의 오타로 추정됩니다.",
+        "문서 마지막 부분인 '본 문서논'은 '본 문서는'의 오타로 보이며 글자가 잘려 있습니다."
+      ]
+    },
+    "translations": {
+      "en": {
+        "language": "English",
+        "summary": "This is a utility bill for 2026년 9월분 (electricity, city gas, and water). The total payment amount is 68,400원, and the payment deadline is 2026년 9월 25일.",
+        "risks": [
+          "An overdue fee (additional money you have to pay for missing the payment date) may be charged if you pay after the designated payment deadline (2026년 9월 25일). Please check this to avoid extra charges.",
+          "The word for payment ('납부') is misspelled as '남부' throughout the document (e.g., 남부자, 남부기한, 남부상태, 남부계좌, 총 남부금액). It is recommended to verify this misspelling.",
+          "The payment status '미답' is suspected to be a typo for '미납' (unpaid, meaning the money has not been paid yet). This needs to be confirmed.",
+          "The phrase '본 문서논' at the end of the document appears to be a typo for '본 문서는' (this document) and the text is cut off, which requires confirmation."
+        ],
+        "next_actions": [
+          "Transfer and pay the total amount of 68,400원 to the virtual bank account (000-0000-0000) by 2026년 9월 25일.",
+          "Be sure to meet the payment deadline to avoid any additional overdue fees (extra charges for paying late)."
+        ]
+      },
+      "zh": {
+        "language": "Simplified Chinese",
+        "summary": "这是2026년 9월份的生活公用事业费（电费、城市燃气、水费）账单，总缴纳金额为68,400원，缴费期限截止到2026년 9월 25일。",
+        "risks": [
+          "如果超过约定的缴费期限（2026년 9월 25일）付款，可能需要支付比原金额更多的资金（滞纳金），建议您对此进行确认。"
+        ],
+        "next_actions": [
+          "请在2026년 9월 25일之前，将总金额68,400원汇款至虚拟银行账户（000-0000-0000）进行缴纳。",
+          "请务必遵守缴费期限，以防产生额外的滞纳金。"
+        ]
+      },
+      "vi": {
+        "language": "Vietnamese",
+        "summary": "Đây là hóa đơn thanh toán các chi phí sinh hoạt (tiền điện, gas đô thị, tiền nước) tháng 9 năm 2026. Tổng số tiền cần thanh toán là 68,400원 và thời hạn thanh toán là đến ngày 2026년 9월 25일.",
+        "risks": [
+          "Nếu đóng tiền sau thời hạn quy định (2026년 9월 25일), có thể bạn sẽ phải trả thêm một khoản tiền phạt do đóng muộn (phí chậm nộp). Cần xác nhận lại xem phí chậm nộp này có thực sự phát sinh hay không.",
+          "Có nhiều lỗi chính tả trong văn bản như viết sai từ '납부' (thanh toán) thành '남부', viết sai từ '미납' (chưa thanh toán) thành '미답', và phần cuối tài liệu bị cắt chữ. Cần xác nhận lại tính chính xác của hóa đơn này."
+        ],
+        "next_actions": [
+          "Vui lòng thanh toán bằng cách chuyển khoản tổng số tiền 68,400원 vào tài khoản ngân hàng ảo (tài khoản tạm thời được cấp để nộp tiền: 000-0000-0000) trước ngày 2026년 9월 25일.",
+          "Hãy chú ý đóng tiền đúng thời hạn để tránh việc phát sinh thêm phí chậm nộp."
+        ]
+      }
+    }
+  },
+  "payslip_A_page_1_camera.png": {
+    "original_analysis": {
+      "document_type": "급여명세서",
+      "summary": "PARK ANH 님의 2026년 9월 급여명세서입니다. 기본급과 연장근로수당을 합산한 지급액에서 4대 보험(국민연금, 건강보험, 고용보험) 및 소득세 등의 공제액을 제외한 최종 실수령액은 2,143,200원이며, 지급일은 2026년 9월 25일입니다.",
+      "money_items": [
+        {
+          "name": "기본급",
+          "amount": "2,200,000원",
+          "evidence": "2,200,000 원\n기본급"
+        },
+        {
+          "name": "연장근로수당",
+          "amount": "180,000원",
+          "evidence": "180,000 원\n연장근로수당"
+        },
+        {
+          "name": "국민연금",
+          "amount": "99,000원",
+          "evidence": "99,000 원\n국민연금"
+        },
+        {
+          "name": "건강보험",
+          "amount": "82,400원",
+          "evidence": "82,400 원\n건강보험"
+        },
+        {
+          "name": "고용보험",
+          "amount": "21,600원",
+          "evidence": "21,600 원\n고용보험"
+        },
+        {
+          "name": "소득세 등",
+          "amount": "33,800원",
+          "evidence": "33,800 원\n소득세 등"
+        },
+        {
+          "name": "실수령액",
+          "amount": "2,143,200원",
+          "evidence": "2,143,200 원\n실수령액"
+        },
+        {
+          "name": "공제 합계 증가액",
+          "amount": "84,000원",
+          "evidence": "특약 /안내  지난달보다 공제 합계가 84,000 원 증가햇습니다:"
+        }
+      ],
+      "date_items": [
+        {
+          "name": "지급일",
+          "date": "2026.09.25",
+          "evidence": "2026.09.25\n지급일"
+        },
+        {
+          "name": "귀속 월",
+          "date": "2026년 9월",
+          "evidence": "2026\n년 9 월 급여명세서"
+        }
+      ],
+      "risks": [
+        {
+          "level": "확인 필요",
+          "title": "공제 합계 금액 증가",
+          "explanation": "안내 문구에 따르면 지난달에 비해 세금 및 4대 보험 등 공제되는 합계 금액이 84,000원 증가했습니다. 어떤 항목이 구체적으로 인상되었는지 지난달 명세서와 상세히 비교해보거나 담당자에게 문의할 필요가 있습니다.",
+          "evidence": "특약 /안내  지난달보다 공제 합계가 84,000 원 증가햇습니다:"
+        }
+      ],
+      "next_actions": [
+        "2026년 9월 25일에 지정된 은행 계좌로 실수령액인 2,143,200원이 정확하게 입금되었는지 확인하세요.",
+        "지난달 급여명세서와 각 공제 항목(국민연금, 건강보험 등)을 비교하여 이번 달에 공제액이 84,000원 증가한 원인을 확인하세요."
+      ],
+      "missing_or_unclear": [
+        "문서 하단에 '본 문서논 공모전'이라는 문구가 중간에 잘려 있어, 해당 명세서가 실제 효력이 있는 문서인지 혹은 단순 가상 시연용/공모전용 문서인지 명확한 구분이 필요합니다.",
+        "일부 오타('증가햇습니다', '문서논')가 존재하여 OCR 텍스트 판독 시 주의가 필요합니다."
+      ]
+    },
+    "translations": {
+      "en": {
+        "language": "English",
+        "summary": "This is the September 2026 pay stub (salary statement) for PARK ANH. The final net take-home pay (the actual amount received) is 2,143,200원, which is calculated by taking the total payment (the sum of the basic salary and overtime pay) and subtracting deductions (money taken out for taxes and insurances, such as income tax and the four major social insurances: national pension, health insurance, and employment insurance). The scheduled payment date is 2026년 9월 25일.",
+        "risks": [
+          "According to the guide text, the total amount of deductions (taxes and social insurances) increased by 84,000원 compared to last month. It is necessary to confirm which specific items increased by comparing this statement with last month's pay stub, or by contacting the person in charge.",
+          "The text at the bottom of the document, 'This document is a contest...' (본 문서논 공모전), is cut off in the middle. It needs to be verified whether this pay stub is a legally valid document or a fictional/sample document created for a competition.",
+          "There are typos in the document (such as '증가햇습니다' and '문서논'). Because of these errors, the document needs to be checked carefully when reading and interpreting the OCR text."
+        ],
+        "next_actions": [
+          "Check if the final actual take-home pay of 2,143,200원 was correctly deposited into your designated bank account on 2026년 9월 25일.",
+          "Compare each deduction item (such as national pension, health insurance, etc.) with last month's pay stub to verify the reason why the deducted amount increased by 84,000원 this month."
+        ]
+      },
+      "zh": {
+        "language": "Simplified Chinese",
+        "summary": "这是 PARK ANH 先生/女士的 2026년 9월 工资单。在基本工资（固定的基本薪资）和加班津贴（超出规定工作时间的补偿）相加的总发放额中，扣除了四大保险（国民年金、健康保险、雇用保险等国家法定社会保险）以及个人所得税等扣除额（从工资中扣除的税费）后，最终实际到手的金额（净收入）为 2,143,200원，发放日期为 2026년 9월 25일。",
+        "risks": [
+          "根据工资单上的提示语，本月的税费及保险等扣除总额比上月增加了 84,000원。需要与上月工资单进行详细对比，或向相关负责人确认具体是哪些项目有所增加。",
+          "文件底部“본 문서논 공모전（本文件...竞赛）”这一表述中途被截断，该工资单是否具有实际法律效力，或是属于虚拟演示/竞赛用文件，需要进一步确认。",
+          "由于文中存在部分错别字（如“증가햇습니다”、“문서논”），在进行文字自动识别（OCR）时，需要注意可能存在的读取误差，建议进行人工确认。"
+        ],
+        "next_actions": [
+          "请确认在 2026년 9월 25일，您的指定银行账户中是否已准确收到实际到手金额 2,143,200원。",
+          "请对比上月的工资单和各项扣除明细（如国民年金、健康保险等），确认导致本月扣除总额增加 84,000원 的具体原因。"
+        ]
+      },
+      "vi": {
+        "language": "Vietnamese",
+        "summary": "Đây là phiếu lương 2026년 9월 của PARK ANH. Số tiền thực nhận (số tiền thực tế nhận được) sau khi trừ đi các khoản khấu trừ (các khoản tiền bị trừ đi) như 4 loại bảo hiểm bắt buộc (Hưu trí quốc gia, Bảo hiểm y tế, Bảo hiểm thất nghiệp) và thuế thu nhập từ tổng số tiền thanh toán (lương cơ bản và phụ cấp làm thêm giờ) là 2,143,200원. Ngày thanh toán lương là ngày 2026년 9월 25일.",
+        "risks": [
+          "Tổng tiền khấu trừ tăng lên: Theo dòng thông báo trên phiếu lương, tổng số tiền khấu trừ (như thuế và các loại bảo hiểm) đã tăng 84,000원 so với tháng trước. Bạn cần đối chiếu chi tiết với phiếu lương của tháng trước hoặc liên hệ với người phụ trách để kiểm tra xem khoản mục nào cụ thể đã bị tăng lên.",
+          "Cần xác nhận tính hiệu lực của tài liệu: Phần cuối của tài liệu có dòng chữ '본 문서논 공모전' bị cắt giữa chừng, do đó cần phải kiểm tra rõ ràng xem phiếu lương này có hiệu lực thực tế hay chỉ là tài liệu dùng cho cuộc thi hoặc mô phỏng.",
+          "Cần lưu ý lỗi chính tả: Tài liệu có tồn tại một số lỗi chính tả (như '증가햇습니다', '문서논'), do đó cần cẩn trọng kiểm tra khi đọc hiểu hoặc nhận dạng ký tự tự động (OCR)."
+        ],
+        "next_actions": [
+          "Hãy xác nhận xem số tiền thực nhận là 2,143,200원 đã được chuyển khoản chính xác vào tài khoản ngân hàng chỉ định vào ngày 2026년 9월 25일 hay chưa.",
+          "Hãy so sánh phiếu lương của tháng trước với từng khoản khấu trừ (Hưu trí quốc gia, Bảo hiểm y tế, v.v.) để kiểm tra nguyên nhân tại sao tổng số tiền bị khấu trừ trong tháng này lại tăng thêm 84,000원."
+        ]
+      }
+    }
+  }
+}
