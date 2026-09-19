@@ -37,7 +37,7 @@ streamlit run streamlit_app.py
 
 ```toml
 GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
-GEMINI_MODEL = "gemini-2.5-flash"
+GEMINI_MODEL = "gemini-3.5-flash-lite"
 ```
 
 `secrets.toml`과 실제 API 키는 GitHub 또는 제출 ZIP에 포함하지 않습니다. 키가 없어도 저장된 샘플 분석, 기관 추천, 상담카드, 금융 캘린더와 피싱 규칙 점검을 시연할 수 있습니다.
