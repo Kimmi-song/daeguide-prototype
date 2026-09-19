@@ -89,7 +89,7 @@ def analyze(file_bytes: bytes, mime_type: str, lang: str) -> dict[str, Any]:
 
     prompt = f"""한국에 거주하는 외국인을 위한 금융생활 문서 분석 도우미입니다. 첨부 문서를 읽고 결과를 {LANGUAGE_NAMES[lang]}로 작성하세요. document_type만 한국어 enum으로 유지하세요. 문서에 보이는 정보만 사용하고 추측하지 마세요. 불명확한 내용은 missing_or_unclear에 기록하세요. 연체료, 위약금, 보증금 반환, 자동갱신, 중도해지, 공제 증가 등 확인 조건을 원문 근거와 함께 설명하세요. highlights에는 가장 중요한 금액 또는 날짜 3개를 넣으세요. consultation.korean_request는 직원에게 보여줄 정중한 한국어 문장으로 작성하세요. 법률·금융 판단을 단정하지 마세요."""
     client = genai.Client(api_key=api_key)
-    models = list(dict.fromkeys([secret("GEMINI_MODEL", "gemini-2.5-flash"), "gemini-2.5-flash-lite"]))
+    models = list(dict.fromkeys([secret("GEMINI_MODEL", "gemini-3.5-flash-lite"), "gemini-3.5-flash-lite"]))
     last_error = None
     for model in models:
         try:
